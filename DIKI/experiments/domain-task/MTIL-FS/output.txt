@@ -1,0 +1,499 @@
+Parameters to be updated: {'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool'}
+
+task0_epoch0:
+train acc: 0.175
+avg main loss 3.33188
+
+task0_epoch1:
+train acc: 0.210625
+avg main loss 2.89168
+
+task0_epoch2:
+train acc: 0.28875
+avg main loss 2.45786
+
+task0_epoch3:
+train acc: 0.384375
+avg main loss 1.95853
+
+task0_epoch4:
+train acc: 0.42
+avg main loss 1.79575
+
+task0_epoch5:
+train acc: 0.4925
+avg main loss 1.48971
+
+task0_epoch6:
+train acc: 0.540625
+avg main loss 1.36974
+
+task0_epoch7:
+train acc: 0.588125
+avg main loss 1.25353
+
+task0_epoch8:
+train acc: 0.605625
+avg main loss 1.18825
+
+task0_epoch9:
+train acc: 0.61125
+avg main loss 1.15475
+Load best epoch weight (epoch 9), parameters ['image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'means', 'covars', 'task_learnt'].
+Parameters to be updated: {'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.0.attn.prefix_pool'}
+
+task0_epoch0:
+train acc: 0.175
+avg main loss 3.33188
+
+task0_epoch1:
+train acc: 0.210625
+avg main loss 2.89168
+
+task0_epoch2:
+train acc: 0.28875
+avg main loss 2.45786
+
+task0_epoch3:
+train acc: 0.384375
+avg main loss 1.95853
+
+task0_epoch4:
+train acc: 0.42
+avg main loss 1.79575
+
+task0_epoch5:
+train acc: 0.4925
+avg main loss 1.48971
+
+task0_epoch6:
+train acc: 0.540625
+avg main loss 1.36974
+
+task0_epoch7:
+train acc: 0.588125
+avg main loss 1.25353
+
+task0_epoch8:
+train acc: 0.605625
+avg main loss 1.18825
+
+task0_epoch9:
+train acc: 0.61125
+avg main loss 1.15475
+Load best epoch weight (epoch 9), parameters ['image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'means', 'covars', 'task_learnt'].
+Parameters to be updated: {'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool'}
+
+task0_epoch0:
+train acc: 0.17625
+avg main loss 3.42909
+
+task0_epoch1:
+train acc: 0.240625
+avg main loss 2.8451
+
+task0_epoch2:
+train acc: 0.259375
+avg main loss 2.54913
+
+task0_epoch3:
+train acc: 0.33875
+avg main loss 2.1093
+
+task0_epoch4:
+train acc: 0.411875
+avg main loss 1.8602
+
+task0_epoch5:
+train acc: 0.474375
+avg main loss 1.57489
+
+task0_epoch6:
+train acc: 0.54
+avg main loss 1.37951
+
+task0_epoch7:
+train acc: 0.585
+avg main loss 1.28163
+
+task0_epoch8:
+train acc: 0.60875
+avg main loss 1.21004
+
+task0_epoch9:
+train acc: 0.618125
+avg main loss 1.17638
+Load best epoch weight (epoch 7), parameters ['image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'means', 'covars', 'task_learnt'].
+
+task1_epoch0:
+train acc: 0.934375
+avg main loss 0.1913
+
+task1_epoch1:
+train acc: 0.96
+avg main loss 0.10384
+
+task1_epoch2:
+train acc: 0.979375
+avg main loss 0.07274
+
+task1_epoch3:
+train acc: 0.985625
+avg main loss 0.05682
+
+task1_epoch4:
+train acc: 0.99125
+avg main loss 0.04771
+
+task1_epoch5:
+train acc: 0.993125
+avg main loss 0.04148
+
+task1_epoch6:
+train acc: 0.995
+avg main loss 0.03774
+
+task1_epoch7:
+train acc: 0.996875
+avg main loss 0.03491
+
+task1_epoch8:
+train acc: 0.9975
+avg main loss 0.03396
+
+task1_epoch9:
+train acc: 0.998125
+avg main loss 0.03353
+Load best epoch weight (epoch 1), parameters ['image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'means', 'covars', 'task_learnt'].
+
+task2_epoch0:
+train acc: 0.5558510638297872
+avg main loss 1.646
+
+task2_epoch1:
+train acc: 0.6476063829787234
+avg main loss 1.25098
+
+task2_epoch2:
+train acc: 0.7526595744680851
+avg main loss 0.84074
+
+task2_epoch3:
+train acc: 0.8231382978723404
+avg main loss 0.63399
+
+task2_epoch4:
+train acc: 0.8696808510638298
+avg main loss 0.45622
+
+task2_epoch5:
+train acc: 0.910904255319149
+avg main loss 0.36056
+
+task2_epoch6:
+train acc: 0.9268617021276596
+avg main loss 0.28001
+
+task2_epoch7:
+train acc: 0.9574468085106383
+avg main loss 0.23071
+
+task2_epoch8:
+train acc: 0.9574468085106383
+avg main loss 0.20654
+
+task2_epoch9:
+train acc: 0.9654255319148937
+avg main loss 0.19765
+Load best epoch weight (epoch 5), parameters ['image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'means', 'covars', 'task_learnt'].
+
+task3_epoch0:
+train acc: 0.4875
+avg main loss 1.67676
+
+task3_epoch1:
+train acc: 0.39375
+avg main loss 1.76709
+
+task3_epoch2:
+train acc: 0.525
+avg main loss 1.48486
+
+task3_epoch3:
+train acc: 0.65
+avg main loss 0.95093
+
+task3_epoch4:
+train acc: 0.80625
+avg main loss 0.547
+
+task3_epoch5:
+train acc: 0.9
+avg main loss 0.24658
+
+task3_epoch6:
+train acc: 0.96875
+avg main loss 0.18292
+
+task3_epoch7:
+train acc: 0.98125
+avg main loss 0.18933
+
+task3_epoch8:
+train acc: 0.98125
+avg main loss 0.12653
+
+task3_epoch9:
+train acc: 0.9875
+avg main loss 0.11896
+Load best epoch weight (epoch 7), parameters ['image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'means', 'covars', 'task_learnt'].
+
+task4_epoch0:
+train acc: 0.6182598039215687
+avg main loss 1.5853
+
+task4_epoch1:
+train acc: 0.8259803921568627
+avg main loss 0.63539
+
+task4_epoch2:
+train acc: 0.9301470588235294
+avg main loss 0.30007
+
+task4_epoch3:
+train acc: 0.9656862745098039
+avg main loss 0.1792
+
+task4_epoch4:
+train acc: 0.9834558823529411
+avg main loss 0.11506
+
+task4_epoch5:
+train acc: 0.9938725490196079
+avg main loss 0.08599
+
+task4_epoch6:
+train acc: 0.9957107843137255
+avg main loss 0.06931
+
+task4_epoch7:
+train acc: 0.9963235294117647
+avg main loss 0.06058
+
+task4_epoch8:
+train acc: 0.9975490196078431
+avg main loss 0.05659
+
+task4_epoch9:
+train acc: 0.9981617647058824
+avg main loss 0.0551
+Load best epoch weight (epoch 5), parameters ['image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'means', 'covars', 'task_learnt'].
+
+task5_epoch0:
+train acc: 0.8601485148514851
+avg main loss 0.49641
+
+task5_epoch1:
+train acc: 0.9071782178217822
+avg main loss 0.36082
+
+task5_epoch2:
+train acc: 0.9214108910891089
+avg main loss 0.27388
+
+task5_epoch3:
+train acc: 0.9542079207920792
+avg main loss 0.19786
+
+task5_epoch4:
+train acc: 0.9696782178217822
+avg main loss 0.14586
+
+task5_epoch5:
+train acc: 0.9820544554455446
+avg main loss 0.11339
+
+task5_epoch6:
+train acc: 0.9900990099009901
+avg main loss 0.09487
+
+task5_epoch7:
+train acc: 0.9938118811881188
+avg main loss 0.08512
+
+task5_epoch8:
+train acc: 0.9938118811881188
+avg main loss 0.07891
+
+task5_epoch9:
+train acc: 0.994430693069307
+avg main loss 0.07882
+Load best epoch weight (epoch 4), parameters ['image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'means', 'covars', 'task_learnt'].
+
+task6_epoch0:
+train acc: 0.575
+avg main loss 1.38916
+
+task6_epoch1:
+train acc: 0.7875
+avg main loss 0.68237
+
+task6_epoch2:
+train acc: 0.8375
+avg main loss 0.43005
+
+task6_epoch3:
+train acc: 0.90625
+avg main loss 0.25232
+
+task6_epoch4:
+train acc: 0.9625
+avg main loss 0.13959
+
+task6_epoch5:
+train acc: 0.96875
+avg main loss 0.10025
+
+task6_epoch6:
+train acc: 0.96875
+avg main loss 0.07845
+
+task6_epoch7:
+train acc: 0.9875
+avg main loss 0.062
+
+task6_epoch8:
+train acc: 0.9875
+avg main loss 0.05185
+
+task6_epoch9:
+train acc: 0.9875
+avg main loss 0.04865
+Load best epoch weight (epoch 2), parameters ['image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'means', 'covars', 'task_learnt'].
+
+task7_epoch0:
+train acc: 0.8733108108108109
+avg main loss 0.33582
+
+task7_epoch1:
+train acc: 0.9408783783783784
+avg main loss 0.20635
+
+task7_epoch2:
+train acc: 0.9628378378378378
+avg main loss 0.14908
+
+task7_epoch3:
+train acc: 0.9679054054054054
+avg main loss 0.11808
+
+task7_epoch4:
+train acc: 0.9881756756756757
+avg main loss 0.08969
+
+task7_epoch5:
+train acc: 0.9847972972972973
+avg main loss 0.0752
+
+task7_epoch6:
+train acc: 0.9932432432432432
+avg main loss 0.06838
+
+task7_epoch7:
+train acc: 0.9915540540540541
+avg main loss 0.06401
+
+task7_epoch8:
+train acc: 0.9932432432432432
+avg main loss 0.05953
+
+task7_epoch9:
+train acc: 0.9949324324324325
+avg main loss 0.05862
+Load best epoch weight (epoch 2), parameters ['image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'means', 'covars', 'task_learnt'].
+
+task8_epoch0:
+train acc: 0.49649234693877553
+avg main loss 1.76314
+
+task8_epoch1:
+train acc: 0.6983418367346939
+avg main loss 0.86439
+
+task8_epoch2:
+train acc: 0.767219387755102
+avg main loss 0.65385
+
+task8_epoch3:
+train acc: 0.8134566326530612
+avg main loss 0.52637
+
+task8_epoch4:
+train acc: 0.8520408163265306
+avg main loss 0.43784
+
+task8_epoch5:
+train acc: 0.8858418367346939
+avg main loss 0.37085
+
+task8_epoch6:
+train acc: 0.9097576530612245
+avg main loss 0.32348
+
+task8_epoch7:
+train acc: 0.921875
+avg main loss 0.29592
+
+task8_epoch8:
+train acc: 0.9260204081632653
+avg main loss 0.28022
+
+task8_epoch9:
+train acc: 0.9311224489795918
+avg main loss 0.27219
+Load best epoch weight (epoch 5), parameters ['image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'means', 'covars', 'task_learnt'].
+
+task9_epoch0:
+train acc: 0.711272040302267
+avg main loss 0.97172
+
+task9_epoch1:
+train acc: 0.7570843828715366
+avg main loss 0.78355
+
+task9_epoch2:
+train acc: 0.7892002518891688
+avg main loss 0.67282
+
+task9_epoch3:
+train acc: 0.8176952141057935
+avg main loss 0.59581
+
+task9_epoch4:
+train acc: 0.8342254408060453
+avg main loss 0.52485
+
+task9_epoch5:
+train acc: 0.8559508816120907
+avg main loss 0.46626
+
+task9_epoch6:
+train acc: 0.8753148614609572
+avg main loss 0.41989
+
+task9_epoch7:
+train acc: 0.8888539042821159
+avg main loss 0.38498
+
+task9_epoch8:
+train acc: 0.8937342569269522
+avg main loss 0.36485
+
+task9_epoch9:
+train acc: 0.8975125944584383
+avg main loss 0.35397
+Load best epoch weight (epoch 7), parameters ['image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'means', 'covars', 'task_learnt'].
+Parameters to be updated: {'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool'}
+Parameters to be updated: {'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool'}
+Parameters to be updated: {'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.0.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool'}
+Parameters to be updated: {'image_encoder.transformer.resblocks.3.attn.prefix_pool', 'image_encoder.transformer.resblocks.4.attn.prefix_pool', 'text_encoder.transformer.resblocks.1.attn.prefix_pool', 'text_encoder.transformer.resblocks.5.attn.prefix_pool', 'text_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.7.attn.prefix_pool', 'image_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.1.attn.prefix_pool', 'image_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.0.attn.prefix_pool', 'image_encoder.transformer.resblocks.2.attn.prefix_pool', 'text_encoder.transformer.resblocks.3.attn.prefix_pool', 'text_encoder.transformer.resblocks.6.attn.prefix_pool', 'text_encoder.transformer.resblocks.4.attn.prefix_pool', 'image_encoder.transformer.resblocks.5.attn.prefix_pool', 'image_encoder.transformer.resblocks.7.attn.prefix_pool'}

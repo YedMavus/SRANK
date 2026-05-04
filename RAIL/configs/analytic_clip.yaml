@@ -1,0 +1,19 @@
+seed: 42
+backbone: 'ViT-B/16'
+datasets: ["aircraft", "caltech101", "dtd", "eurosat", "oxford_flowers", "food101", "mnist", "oxford_pets", "stanford_cars", "sun397"]
+num_shots: 16
+
+batch_size: 128
+batch_size_eval: 512
+regularization: 0.1
+fusion_weight: 0.8
+
+feature_expansion: 1
+hidden_dim: 15000
+
+gamma: 0.1
+
+augmentation_time: 1
+
+eval_adapter: 0  # evaluate on only learned domains
+eval_last: 0  # evaluate only last accuracy

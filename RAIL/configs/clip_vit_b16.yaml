@@ -1,0 +1,37 @@
+seed: 42
+backbone: 'ViT-B/16'
+datasets: ["aircraft", "caltech101", "dtd", "eurosat", "oxford_flowers", "food101", "mnist", "oxford_pets", "stanford_cars", "sun397"]
+num_shots: 16
+
+batch_size: 128
+batch_size_eval: 512
+resolution: 224
+
+deterministic: True
+gpu: 0
+num_workers: 8
+prec: "amp"
+
+continue_train: True
+continue_train_first: False
+num_epochs: 50
+lr: 0.002
+weight_decay: 0.0005
+loss_type: "CE"
+lada_k: 16      # lambda_1 in LADA paper 
+prototype_k: 4  # lambda_2 in LADA paper
+image_prototypes_weight_coef: 64.0
+
+t_adaptformer: True
+t_adapter_dim: 16
+
+n_ctx: 16
+img_size: 224
+optimizer: "sgd"
+scheduler: "cosine"
+
+
+
+
+eval_adapter: 0  # evaluate on only learned domains
+eval_last: 0  # evaluate only last accuracy

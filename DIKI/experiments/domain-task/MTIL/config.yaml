@@ -1,0 +1,34 @@
+DIKI:
+  batchwise_prompt: true
+  n_ctx_text: 8
+  n_ctx_vision: 8
+  optim:
+    batch_size: 128
+    lr: 5.0
+    lr_scheduler: cosine
+    max_epoch: 1
+    name: SGD
+    warmup_epoch: 0
+    weight_decay: 0
+  prompt_depth_text: 8
+  prompt_depth_vision: 8
+MTIL_order_2: true
+command: main.py --config-path configs/MTIL-order-II.yaml
+config_path: configs/MTIL-order-II.yaml
+dataset: MTIL
+dataset_root: /HDD/Suvam_Backup/Suvam/DATA/
+eval_only: false
+gpu_id: '0'
+input_size:
+- 224
+- 224
+load_file: ''
+log_path: experiments/domain-task/MTIL
+model_backbone_name: ViT-B/16
+num_shots: -1
+prompt_template: ''
+scenario: domain-task
+seed: 42
+train_one_dataset: -1
+use_validation: true
+zero_shot: false

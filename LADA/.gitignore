@@ -1,0 +1,9 @@
+**__pycache__/
+/data
+/output
+/human_eval_img
+/human_eval_img_top5
+/Special
+/Special_
+/CSV_Results
+/.vscode
