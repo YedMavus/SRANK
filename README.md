@@ -9,9 +9,7 @@ to three different papers in which SRank evaluation was done:
 - RAIL
 
 Each folder is self-contained and includes its own implementation
-of the evaluation metric. Code duplication is intentional to
-ensure exact reproducibility of reported results.
-
+of the evaluation metric.
 
 
 The code for the SRANK metric has been added to utils.py or in line for different methods.
